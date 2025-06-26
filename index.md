@@ -1,6 +1,6 @@
 Smart Mirror
 
-This project transforms a traditional bathroom mirror into a multifunctional smart display. By integrating a digital screen, the system mimics the appearance of a standard mirror while offering smartphone-like features such as displaying the time, weather updates, calendar events, and personalized medication reminders. These modifications transform the standard bathroom mirror into a personal assistant.  It is especially beneficial for individuals who take regular medications, providing consistent and timely reminders each time they enter the bathroom — ensuring adherence and improving overall wellness!
+This project transforms a traditional bathroom mirror into a multifunctional smart display. By integrating a digital screen, the system mimics the appearance of a standard mirror while offering smartphone-like features such as displaying the time, weather updates, calendar events, and personalized medication reminders. These modifications transform the standard bathroom mirror into a personal assistant.  It is especially beneficial for individuals who take regular medication, providing consistent and timely reminders each time they enter the bathroom improving their overall wellness!
 
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
@@ -21,9 +21,11 @@ You should comment out all portions of your portfolio that you have not complete
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe ADD </iframe>
 
 For your final milestone, explain the outcome of your project. Key details to include are:
+For my final milestone, I have successfully _____. My biggest triumphs included ___. Through this process, I have learnt: how to use a raspberry pi display and how to install a camera feature into it, how to operate in the command prompt and use linux commands, how to format a website and how to embed and create my own modules. In the future, I hope I can further expand on my knowledge of python and use of the command prompt terminal! 
+
 
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
@@ -36,24 +38,17 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe ADD></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+
+Since completing my base project, I have focused on creating a live camera feed to show on my display screen. Surprisingly, this has been the most time consuming and confusing task yet. Inserting the white ribbon camera took me 20 minutes since I had trouble pushing the grey clip down with the ribbon inserted. Eventually, pushing down one side at a time solved this error. I also experienced problems with the software. I tried five different code segments regarding embedding a live stream straight on to my display screen. None of these segments worked, but eventually with some support I was able to add code which could display the live feed on a website. I have adapted and displayed this website as full screen on my display to act as a mirror. Before my final milestone, I need to create my own module to add reminders, add my google doc module and find a way to display all of the above with the basic MagicMirror module. 
 
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M68OSya9c-o?si=nQ-mRqXoc6oYmflQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-My plan for the Smart Mirror is to use a raspberry pie operating system with a camera attached to connect a display screen. For my first milestone, I have finished the base for my project, including the hardware connecting  and the display screen. 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+
+My plan for the Smart Mirror is to use a raspberry pie operating system with a camera attached to connect a display screen. For my first milestone, I have finished the base for my project which includes: connecting HDMI and USB cables to the display from the raspberry pi, connecting the wireless mouse and keyboard to the raspberry pi and using command prompt on my computer to ssh into my raspberry pi to open the MagicMirror module on my display screen. I've faced many challenges, mostly with the hardware since the raspberry pi is very delicate and it was hard for me to attach all the cables. I've learnt to hold the back of the cable slot on the bread board firmly and slightly twist the cable while pushing it in. I also faced troubles with  software, since it took a while to install the MagicMirror application. I continuosly recieved errors where my computer could not establish the authenticity of my raspberry pi. I learned to  use sudo infront of the install command to troubleshoot this error. This error occured as the computer inherently protects itself from unknown application and the sudo statement can overrride this. My plan for the future is to install the camera in so I’ll be able to see myself through the display and it will operate as a mirror and Additionally, I would like to add in a module for google doc notes and possibly sports, as well as create my own module for reminders!
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
