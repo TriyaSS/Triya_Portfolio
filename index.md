@@ -1,6 +1,7 @@
 Smart Mirror
-This project will use a display to mimic a bathroom mirror, however will also integrate qualities of a phone screen such as displaying weather, time, calendar and medication reminders. These modifications transform the standard bathroom mirror into a personal assistant. Individuals taking regular medication, especially benefit from this mirror; with strict reminders showing everytime they enter their bathroom! 
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+
+This project transforms a traditional bathroom mirror into a multifunctional smart display. By integrating a digital screen, the system mimics the appearance of a standard mirror while offering smartphone-like features such as displaying the time, weather updates, calendar events, and personalized medication reminders. These modifications transform the standard bathroom mirror into a personal assistant.  It is especially beneficial for individuals who take regular medications, providing consistent and timely reminders each time they enter the bathroom — ensuring adherence and improving overall wellness!
+
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -23,6 +24,7 @@ You should comment out all portions of your portfolio that you have not complete
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For your final milestone, explain the outcome of your project. Key details to include are:
+
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
@@ -44,10 +46,9 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M68OSya9c-o?si=nQ-mRqXoc6oYmflQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+My plan for the Smart Mirror is to use a raspberry pie operating system with a camera attached to connect a display screen. For my first milestone, I have finished the base for my project, including the hardware connecting  and the display screen. 
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
