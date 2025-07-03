@@ -6,8 +6,6 @@ This project transforms a traditional bathroom mirror into a multifunctional sma
 |:--:|:--:|:--:|:--:|
 | Triya S | Foothill High School | Computer Science | Incoming Junior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
 ![Final Image](/least-github-pages/assets/IMG_6404.HEIC)
   
 # **Final Milestone**
@@ -16,14 +14,6 @@ This project transforms a traditional bathroom mirror into a multifunctional sma
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 For my final milestone, I have successfully created my medicine reminders module, as well as added a module for . My biggest triumphs included getting my . Through this process, I have learnt: how to use a raspberry pi display and how to install a camera feature into it, how to operate in the command prompt and use linux commands, how to format a website and how to embed and create my own modules. In the future, I hope I can further expand on my knowledge of python and use of the command prompt terminal! 
-
-
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
-
 
 # **Second Milestone**
 
@@ -34,7 +24,6 @@ Since completing my base project, I have focused on creating a live camera feed 
 # **First Milestone**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M68OSya9c-o?si=nQ-mRqXoc6oYmflQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 My plan for the Smart Mirror is to use a raspberry pie operating system with a camera attached to connect a display screen. For my first milestone, I have finished the base for my project which includes: connecting HDMI and USB cables to the display from the raspberry pi, connecting the wireless mouse and keyboard to the raspberry pi and using command prompt on my computer to ssh into my raspberry pi to open the MagicMirror module on my display screen. I've faced many challenges, mostly with the hardware since the raspberry pi is very delicate and it was hard for me to attach all the cables. I've learnt to hold the back of the cable slot on the bread board firmly and slightly twist the cable while pushing it in. I also faced troubles with  software, since it took a while to install the MagicMirror application. I continuosly recieved errors where my computer could not establish the authenticity of my raspberry pi. I learned to  use sudo infront of the install command to troubleshoot this error. This error occured as the computer inherently protects itself from unknown application and the sudo statement can overrride this. My plan for the future is to install the camera in so I’ll be able to see myself through the display and it will operate as a mirror and Additionally, I would like to add in a module for google doc notes and possibly sports, as well as create my own module for reminders!
 
@@ -81,6 +70,5 @@ My plan for the Smart Mirror is to use a raspberry pie operating system with a c
 | Adapter and Sd card Reder | Used for operating the raspberry pi. | $9.99 | <a href="https://www.amazon.com/dp/B081VHSB2V?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"> Link </a> |
 
 # **Other Resources/Examples**
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - https://www.howtoraspberry.com/2022/02/real-time-streaming-protocol-and-the-raspberry-pi-video-for-linux-2/
 - https://docs.magicmirror.builders/development/introduction.html#general-advice
