@@ -8,7 +8,7 @@ This project transforms a traditional bathroom mirror into a multifunctional sma
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Final Image](/least-github-pages/assets/IMG_6404.HEIC)
   
 # **Final Milestone**
 
@@ -39,8 +39,7 @@ Since completing my base project, I have focused on creating a live camera feed 
 My plan for the Smart Mirror is to use a raspberry pie operating system with a camera attached to connect a display screen. For my first milestone, I have finished the base for my project which includes: connecting HDMI and USB cables to the display from the raspberry pi, connecting the wireless mouse and keyboard to the raspberry pi and using command prompt on my computer to ssh into my raspberry pi to open the MagicMirror module on my display screen. I've faced many challenges, mostly with the hardware since the raspberry pi is very delicate and it was hard for me to attach all the cables. I've learnt to hold the back of the cable slot on the bread board firmly and slightly twist the cable while pushing it in. I also faced troubles with  software, since it took a while to install the MagicMirror application. I continuosly recieved errors where my computer could not establish the authenticity of my raspberry pi. I learned to  use sudo infront of the install command to troubleshoot this error. This error occured as the computer inherently protects itself from unknown application and the sudo statement can overrride this. My plan for the future is to install the camera in so I’ll be able to see myself through the display and it will operate as a mirror and Additionally, I would like to add in a module for google doc notes and possibly sports, as well as create my own module for reminders!
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
+![schematics Image](/least-github-pages/assets/IMG_6402.HEIC)
 # Code
 
 ```{
