@@ -12,7 +12,7 @@ This project transforms a traditional bathroom mirror into a multifunctional sma
   
 # **Final Milestone**
 
-<iframe ADD </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xoKuNIsuufI?si=5f-5Xo3sC0J4W4Z0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 For my final milestone, I have successfully created my medicine reminders module, as well as added a module for . My biggest triumphs included getting my . Through this process, I have learnt: how to use a raspberry pi display and how to install a camera feature into it, how to operate in the command prompt and use linux commands, how to format a website and how to embed and create my own modules. In the future, I hope I can further expand on my knowledge of python and use of the command prompt terminal! 
