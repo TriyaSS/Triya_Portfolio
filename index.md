@@ -1,4 +1,4 @@
-Smart Mirror
+**Smart Mirror**
 
 This project transforms a traditional bathroom mirror into a multifunctional smart display. By integrating a digital screen, the system mimics the appearance of a standard mirror while offering smartphone-like features such as displaying the time, weather updates, calendar events, and personalized medication reminders. These modifications transform the standard bathroom mirror into a personal assistant.  It is especially beneficial for individuals who take regular medication, providing consistent and timely reminders each time they enter the bathroom improving their overall wellness!
 
@@ -9,9 +9,9 @@ You should comment out all portions of your portfolio that you have not complete
 <!--- Anything between these symbols will not render on the published site -->
 ```
 
-| Triya S |Foothill High School| Computer Science | Incoming Junior |
+| Name: |School| Area of Interest | Grade |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| Triya S | Foothill High School | Computer Science | Incoming Junior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
