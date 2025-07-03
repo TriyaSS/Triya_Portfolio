@@ -10,14 +10,12 @@ This project transforms a traditional bathroom mirror into a multifunctional sma
 
 ![Headstone Image](logo.svg)
   
-# Final Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+# **Final Milestone**
 
 <iframe ADD </iframe>
 
 For your final milestone, explain the outcome of your project. Key details to include are:
-For my final milestone, I have successfully _____. My biggest triumphs included ___. Through this process, I have learnt: how to use a raspberry pi display and how to install a camera feature into it, how to operate in the command prompt and use linux commands, how to format a website and how to embed and create my own modules. In the future, I hope I can further expand on my knowledge of python and use of the command prompt terminal! 
+For my final milestone, I have successfully created my medicine reminders module, as well as added a module for . My biggest triumphs included getting my . Through this process, I have learnt: how to use a raspberry pi display and how to install a camera feature into it, how to operate in the command prompt and use linux commands, how to format a website and how to embed and create my own modules. In the future, I hope I can further expand on my knowledge of python and use of the command prompt terminal! 
 
 
 - What you've accomplished since your previous milestone
@@ -27,13 +25,13 @@ For my final milestone, I have successfully _____. My biggest triumphs included 
 
 
 
-# Second Milestone
+# **Second Milestone**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_eKFbrD7Oyw?si=GT7kiSxQ37nz4TtB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Since completing my base project, I have focused on creating a live camera feed to show on my display screen. Surprisingly, this has been the most time consuming and confusing task yet. Inserting the white ribbon camera took me 20 minutes since I had trouble pushing the grey clip down with the ribbon inserted. Eventually, pushing down one side at a time solved this error. I also experienced problems with the software. I tried five different code segments regarding embedding a live stream straight on to my display screen. None of these segments worked, but eventually with some support I was able to add code which could display the live feed on a website. I have adapted and displayed this website as full screen on my display to act as a mirror. Before my final milestone, I need to create my own module to add reminders, add my google doc module and find a way to display all of the above with the basic MagicMirror module. 
 
-# First Milestone
+# **First Milestone**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M68OSya9c-o?si=nQ-mRqXoc6oYmflQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -44,22 +42,37 @@ My plan for the Smart Mirror is to use a raspberry pie operating system with a c
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
+```{
+			module: 'MMM-MedicineReminder',
+			position: 'top_center',
+			config: {
+				foo: "Reminder: Take your medicine",
+				phrases: ["Did you have enough water today?", "Hey buddy, you should have some water!","Drink water, bro.","'Better to have stones in the way than in the Kidneys: Drink water!'",
+				"It's been such a long time since your last glass of water...","Water! Water! Water!","Are you anxious for the next glass of water?"],
+				additionalPhrases: [],
+				startTime: "00:00",
+				endTime: "23:59",
+				messageDuration: 1 * 60 * 1000, // 1 min showing on the screen
+				animationSpeed: 4 * 1000, // 4 seconds for fading
+				reminderFrequency: 1 * 60 * 1000, // hourly reminder
+				classes: "bright medium light",
+				color: "#fff",
+				idleMessage: "<br/>",
+				logo: true,
+				days: [0,1,2,3,4,5,6], // all week
+				alarm: {
+					status: false, 
+					daysWithAudibleReminder: [1,2,3,4,5],
+					src: "done-for-you.mp3",
+					startTime: "09:00",
+					endTime: "17:00",
+				}
+			}
+		},
 ```
 
-# Bill of Materials
+# **Bill of Materials**
 
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
@@ -70,9 +83,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Wireless Keyboard | Operates the display. | $21.99 | <a href="https://www.amazon.com/gp/product/B07XDWCLYF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1"> Link </a> |
 | 7 Inch IPS LCD Touch Screen Display Panel  | Displays the smart mirror and camera feature. | $39.99| <a href="https://www.amazon.com/Hosyond-Display-1024%C3%97600-Capacitive-Raspberry/dp/B09XKC53NH/ref=sr_1_3?crid=1KKB9WC62OIAD&keywords=raspberry%2Bpi%2Bips&qid=1685911698&s=electronics&sprefix=raspberry%2Bpi%2Bips%2B%2Celectronics%2C87&sr=1-3&th=1"> Link </a> |
 | Adapter and Sd card Reder | Used for operating the raspberry pi. | $9.99 | <a href="https://www.amazon.com/dp/B081VHSB2V?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"> Link </a> |
-# Other Resources/Examples
+# **Other Resources/Examples**
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - https://www.howtoraspberry.com/2022/02/real-time-streaming-protocol-and-the-raspberry-pi-video-for-linux-2/
 - https://docs.magicmirror.builders/development/introduction.html#general-advice
-
-To watch the BSE tutorial on how to create a portfolio, click here.
